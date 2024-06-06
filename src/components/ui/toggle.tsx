@@ -12,10 +12,8 @@ export default function Toggle({
   setValue: (value: string) => void;
   currentValue: string;
 }) {
-  const [checked, setChecked] = useState(value === currentValue);
   const id = useId();
   const ref = useRef<HTMLInputElement>(null);
-  console.log(checked);
 
   return (
     <>

@@ -162,7 +162,6 @@ describe("Test Data Render Correctly", () => {
       await waitFor(() => {
         expect(screen.getByText("20000")).toBeInTheDocument;
       });
-      console.log(screen.debug());
     });
     it("should display price as 20000 if the article is published more than 1 week", async () => {
       const articleOneWeek = {

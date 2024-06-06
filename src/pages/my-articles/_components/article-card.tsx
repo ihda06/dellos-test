@@ -12,7 +12,7 @@ export default function ArticleCard({
   url,
 }: MyArticle) {
   return (
-    <div className="grid grid-cols-2 gap-5 bg-white border rounded-lg">
+    <div className="grid grid-cols-2 gap-5 bg-white border rounded-lg p-4">
       <div className="flex flex-col">
         <div className="space-y-6">
           <div className="">

@@ -5,6 +5,7 @@ import { hasCookie, setCookie } from "cookies-next";
 import type { AppProps } from "next/app";
 
 import { useEffect } from "react";
+import { ToastContainer } from "react-toastify";
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {

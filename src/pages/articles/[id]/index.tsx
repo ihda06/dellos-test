@@ -17,7 +17,8 @@ import {
   Transition,
 } from "@headlessui/react";
 import { BiCoinStack } from "react-icons/bi";
-import { getCookie, hasCookie, setCookie } from "cookies-next";
+import { getCookie, setCookie } from "cookies-next";
+import { toast } from "react-toastify";
 
 export default function ArticlesPage({}) {
   const [confirmationDialog, setConfirmationDialog] = useState(false);
@@ -54,7 +55,6 @@ export default function ArticlesPage({}) {
     if (!data) return 0;
 
     const pubDate = dayjs(data.data.response.docs[0].pub_date);
-    console.log(dayjs().diff(pubDate, "day"));
 
     if (dayjs().diff(pubDate, "day") <= 1) {
       return 50000;
@@ -123,6 +123,7 @@ export default function ArticlesPage({}) {
       } else {
         setCookie("reedem_ticket", "3");
       }
+      toast.success(" Congratulations! You got 3 reedem tickets 🎉🎉🤟🤟");
     }
   };
 

@@ -16,7 +16,6 @@ describe("Sidebar", () => {
   it("should display loading state initially", () => {
     render(<Sidebar />);
     waitFor(() => expect(screen.getByText("Loading")).toBeInTheDocument());
-    // expect(screen.getByTestId("loading")).toBeInTheDocument();
   });
 
   it("should display coin value after loading", async () => {
