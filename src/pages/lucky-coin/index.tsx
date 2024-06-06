@@ -8,7 +8,6 @@ import {
 import { getCookie, setCookie } from "cookies-next";
 import { useEffect, useState } from "react";
 import { BiCoinStack } from "react-icons/bi";
-import { RandomReveal } from "react-random-reveal";
 
 export default function LuckyCoinPage() {
   const reedem_ticket = getCookie("reedem_ticket");
