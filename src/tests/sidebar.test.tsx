@@ -2,7 +2,7 @@ import { render, screen, waitFor } from "@testing-library/react";
 
 import { getCookie } from "cookies-next";
 import "@testing-library/jest-dom";
-import Sidebar from "./sidebar";
+import Sidebar from "@/pages/articles/_components/sidebar";
 
 jest.mock("cookies-next", () => ({
   getCookie: jest.fn(),

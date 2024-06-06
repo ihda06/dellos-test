@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from "@testing-library/react";
 
-import ArticleDetail from ".";
+import ArticleDetail from "../pages/articles/[id]";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactNode } from "react";
 import axios from "axios";
