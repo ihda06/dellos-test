@@ -17,14 +17,12 @@ export default function FilterMostApi({
 }) {
   const { data, isLoading } = useQuery({
     refetchOnWindowFocus: false,
-    // placeholderData: keepPreviousData,
     queryKey: ["articles", filter, period],
     queryFn: () => {
       return axios.get<MostApiResponse>(
         `https://api.nytimes.com/svc/mostpopular/v2/${filter}/${period}.json`,
         {
           params: {
-            // period: period,
             "api-key": process.env.NEXT_PUBLIC_NEWS_API_KEY,
           },
         }

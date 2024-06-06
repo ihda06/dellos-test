@@ -66,7 +66,6 @@ export default function ArticlesPage({}) {
   }, [data]);
 
   const isDisabledBuy = useMemo(() => {
-    // tidak cukup
     if (!!my_coin && Number(my_coin) < price) {
       return true;
     }
@@ -75,7 +74,7 @@ export default function ArticlesPage({}) {
       const totalFreeArticles = articles.filter(
         (article) => article.price === "0"
       ).length;
-      // article free melebihi batas
+
       if (totalFreeArticles >= 3) {
         return true;
       }

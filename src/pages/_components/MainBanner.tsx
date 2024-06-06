@@ -1,15 +1,6 @@
-import { setCookie } from "cookies-next";
 import Link from "next/link";
-import { MouseEvent, useState } from "react";
-import { IoSearch } from "react-icons/io5";
 
 export default function MainBanner() {
-  // const handleClick = (e: MouseEvent<HTMLButtonElement>) => {
-  //   e.preventDefault();
-  //   if (name) {
-  //     setCookie("data", { name: name });
-  //   }
-  // };
   return (
     <div className=" overflow-hidden bg-blue-500 lg:p-20 p-10 rounded-xl space-y-14 text-center w-full">
       <div className="">
@@ -17,20 +8,9 @@ export default function MainBanner() {
         <h2 className="font-bold text-7xl  text-white">Dellos News</h2>
       </div>
       <div className=" w-[50%] mx-auto flex">
-        {/* <div className="w-full flex gap-2 items-center ps-2">
-          <IoSearch size={20} />
-          <input
-            className="w-full focus:outline-none"
-            type="text"
-            placeholder="Type your name here"
-            onChange={(e) => setName(e.target.value)}
-            value={name}
-          />
-        </div> */}
         <Link
           className="py-2 px-4 w-full  text-white bg-black rounded-2xl hover:bg-blue-800 duration-300 hover:text-white font-semibold"
           href={"/articles"}
-          // type="button"
         >
           Start
         </Link>

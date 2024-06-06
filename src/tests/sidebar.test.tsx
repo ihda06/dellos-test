@@ -54,7 +54,6 @@ describe("Sidebar", () => {
 
     const { container } = render(<Sidebar />);
 
-    // Simulate the effect to update loading state
     await waitFor(() => {
       expect(screen.getByText("1. Article 1")).toBeInTheDocument();
       expect(screen.getByText("2. Article 2")).toBeInTheDocument();

@@ -12,7 +12,6 @@ export default function AllArticle({ keywords }: { keywords: string }) {
   const { page, setPage } = usePaginationQuery();
   const { data, isLoading } = useQuery({
     refetchOnWindowFocus: false,
-    // placeholderData: keepPreviousData,
     queryKey: ["articles", page, keywords],
     queryFn: () => {
       return axios.get<ArticlesResponse>(

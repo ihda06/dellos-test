@@ -57,7 +57,6 @@ const createWrapper = (children: ReactNode) => {
   const queryClient = new QueryClient({
     defaultOptions: {
       queries: {
-        // ✅ turns retries off
         retry: false,
       },
     },
@@ -85,8 +84,6 @@ describe("Test Data Render Correctly", () => {
     await waitFor(
       () => expect(screen.getByText("This title")).toBeInTheDocument
     );
-    // Wait for the data to be rendered
-    // Verify that the data is displayed correctly
     expect(screen.getByText("This title")).toBeInTheDocument;
   });
 
@@ -210,8 +207,6 @@ describe("Test Data Render Correctly", () => {
       await waitFor(
         () => expect(screen.getByText("Buy Now")).toBeInTheDocument
       );
-      // Wait for the data to be rendered
-      // Verify that the data is displayed correctly
       expect(screen.getByText("Buy Now")).toBeInTheDocument;
     });
   });

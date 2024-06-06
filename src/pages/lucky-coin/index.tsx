@@ -27,8 +27,6 @@ export default function LuckyCoinPage() {
     setIsLoading(false);
   }, []);
 
-  console.log(reedem_ticket);
-
   const handleRedeem = () => {
     if (Number(reedem_ticket) > 0) {
       setModal(true);
