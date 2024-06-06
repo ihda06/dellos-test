@@ -1,11 +1,9 @@
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 
 import ArticleDetail from ".";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactNode } from "react";
 import axios from "axios";
-import { Article, ArticlesResponse } from "@/types/dto/articles";
-import { getCookie } from "cookies-next";
 import dayjs from "dayjs";
 
 jest.mock("next/router", () => ({

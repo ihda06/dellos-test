@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "npm install --only=dev"
   },
   "dependencies": {
     "@headlessui/react": "^2.0.4",
