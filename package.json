@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 8080",
-    "build": "next build",
+    "dev": "next dev --port=8080",
+    "build": "npm install --include=dev && next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "postinstall": "npm install --only=dev"
+    "postinstall": "npm ci --include=dev"
   },
   "dependencies": {
     "@headlessui/react": "^2.0.4",
