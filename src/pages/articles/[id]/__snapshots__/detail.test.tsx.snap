@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test View Article Detail To match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full"
+  >
+    Loading
+  </div>
+</DocumentFragment>
+`;

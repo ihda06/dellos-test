@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test View Homepage To match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="space-y-10"
+  >
+    <div
+      class=" overflow-hidden bg-blue-500 lg:p-20 p-10 rounded-xl space-y-14 text-center w-full"
+    >
+      <div
+        class=""
+      >
+        <h2
+          class=" text-lg text-blue-100"
+        >
+          Welcome to
+        </h2>
+        <h2
+          class="font-bold text-7xl  text-white"
+        >
+          Dellos News
+        </h2>
+      </div>
+      <div
+        class=" w-[50%] mx-auto flex"
+      >
+        <a
+          class="py-2 px-4 w-full  text-white bg-black rounded-2xl hover:bg-blue-800 duration-300 hover:text-white font-semibold"
+          href="/articles"
+        >
+          Start
+        </a>
+      </div>
+      <dl
+        class="w-[80%] mx-auto"
+      >
+        <dt
+          class="text-blue-900 font-bold"
+        >
+          Access Exclusive Articles from NYTimes Most Popular
+        </dt>
+        <dd
+          class="text-white text-sm"
+        >
+          Unlock the most engaging, insightful, and thought-provoking articles
+          from the New York Times' most popular section, all in one place. With
+          DelosNews, you can now purchase premium articles effortlessly and stay
+          ahead with the latest news and trends.
+        </dd>
+      </dl>
+    </div>
+    <div
+      class="grid lg:grid-cols-3 grid-cols-1 gap-3"
+    >
+      <dl
+        class="rounded-xl bg-white p-4 border"
+      >
+        <dt
+          class="mb-2 text-blue-500 font-bold"
+        >
+          Why Choose DelosNews?
+        </dt>
+        <dd
+          class="text-xs"
+        >
+          <b>
+            Curated Content: 
+          </b>
+          Only the best and most-read articles from the New York Times.
+        </dd>
+        <dd
+          class="text-xs"
+        >
+          <b>
+            Easy Access: 
+          </b>
+           Seamlessly browse, select, and purchase articles of your interest.
+        </dd>
+        <dd
+          class="text-xs"
+        >
+          <b>
+            Exclusive Insights: 
+          </b>
+          Gain access to premium content that keeps you informed and enlightened. Secure
+        </dd>
+        <dd
+          class="text-xs"
+        >
+          <b>
+            Transactions: 
+          </b>
+          Enjoy peace of mind with our safe and secure payment system.
+        </dd>
+        <dd
+          class="text-xs"
+        >
+          <b>
+            User-FrienDdy Interface: 
+          </b>
+          Navigate through our platform with ease and find the articles you need quickly.
+        </dd>
+      </dl>
+      <dl
+        class="rounded-xl bg-white p-4 border"
+      >
+        <dt
+          class="mb-2 text-blue-500 font-bold"
+        >
+          How It Works
+        </dt>
+        <dd
+          class="text-xs"
+        >
+          <b>
+            Browse: 
+          </b>
+          Explore a wide range of topics and articles
+        from NYTimes' most popular section. 
+        </dd>
+        <dd
+          class="text-xs"
+        >
+          <b>
+            Select: 
+          </b>
+          Choose the articles that pique your interest.
+        </dd>
+        <dd
+          class="text-xs"
+        >
+          <b>
+            Purchase: 
+          </b>
+          Purchase your selected articles through our secure checkout process.
+        </dd>
+        <dd
+          class="text-xs"
+        >
+          <b>
+            Enjoy: 
+          </b>
+          Enjoy premium content that keeps you informed and enlightened.
+        </dd>
+      </dl>
+      <dl
+        class="rounded-xl bg-white p-4 border"
+      >
+        <dt
+          class="mb-2 text-blue-500 font-bold"
+        >
+          Discover a World of Knowledge and Insight
+        </dt>
+        <dd
+          class="text-xs"
+        >
+          Whether you're looking for the latest in politics, culture, science, or technology, DelosNews has you covered. Our platform ensures you never miss out on the articles that matter most.
+        </dd>
+      </dl>
+    </div>
+  </div>
+</DocumentFragment>
+`;
