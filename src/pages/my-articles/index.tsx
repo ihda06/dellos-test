@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { getCookie } from "cookies-next";
 import ArticleCard from "./_components/article-card";
 import { BiCoinStack } from "react-icons/bi";
-import { GiBookshelf, GiEmptyWoodBucket } from "react-icons/gi";
+import { GiBookshelf } from "react-icons/gi";
 import Link from "next/link";
 
 export default function MyArticlePage({}) {

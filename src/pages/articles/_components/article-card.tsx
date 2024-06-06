@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
 import { compressToEncodedURIComponent } from "lz-string";
-import Image from "next/image";
+
 import Link from "next/link";
 import { ReactNode } from "react";
 import { BsArrowRight } from "react-icons/bs";

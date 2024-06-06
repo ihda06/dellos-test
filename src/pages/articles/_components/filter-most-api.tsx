@@ -1,9 +1,4 @@
-import usePaginationQuery from "@/hooks/usePagination";
-import {
-  Article,
-  ArticlesResponse,
-  MostApiResponse,
-} from "@/types/dto/articles";
+import { MostApiResponse } from "@/types/dto/articles";
 
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";

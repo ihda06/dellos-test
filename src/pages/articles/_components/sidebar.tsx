@@ -1,10 +1,9 @@
 import { MyArticle } from "@/types/dto/articles";
-import { useQuery } from "@tanstack/react-query";
-import { useLocalStorage } from "@uidotdev/usehooks";
+
 import { getCookie } from "cookies-next";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { BiCoin, BiCoinStack } from "react-icons/bi";
+import { BiCoinStack } from "react-icons/bi";
 
 export default function Sidebar({}) {
   const my_coin = getCookie("my_coin");

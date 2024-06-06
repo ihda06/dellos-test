@@ -6,7 +6,6 @@ import Link from "next/link";
 export default function ArticleCard({
   abstract,
   date,
-  id,
   image,
   title,
   author,
